@@ -12,10 +12,12 @@ function Navbarr() {
     <Navbar.Collapse id="basic-navbar-nav">
     <NavDropdown title="Tournament" id="basic-nav-dropdown">
           <NavDropdown.Item href="/addtournament">Add</NavDropdown.Item>
+          <NavDropdown.Item href="/edittournament">Edit</NavDropdown.Item>
           <NavDropdown.Item href="/tournamentlist">View</NavDropdown.Item>
     </NavDropdown>
     <NavDropdown title="Schedule" id="basic-nav-dropdown">
           <NavDropdown.Item href="/addschedule">Add</NavDropdown.Item>
+          <NavDropdown.Item href="/editschedule">Edit</NavDropdown.Item>
           <NavDropdown.Item href="/schedulelist">View</NavDropdown.Item>
     </NavDropdown>
       <Nav.Link href="#">Logout</Nav.Link>

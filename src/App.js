@@ -7,6 +7,8 @@ import Addtournament from './components/Tournaments/addtournament';
 import Tournamentt from './components/Tournaments/tournamentlist';
 import Schedule from './components/Schedule/schedulelist';
 import Schedulee from './components/Schedule/addschedule';
+import Editt from './components/Tournaments/edittournament';
+import Edits from './components/Schedule/editschedule';
 import Home from './components/home';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='/tournamentlist' component={Tournamentt} />
         <Route path='/addschedule' component={Schedulee} />
         <Route path='/schedulelist' component={Schedule} />
+        <Route path='/editschedule' component={Edits} />
+        <Route path='/edittournament' component={Editt} />
     </Switch>
     </Router>
 

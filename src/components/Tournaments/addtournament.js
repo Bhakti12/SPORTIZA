@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import ReactBootstrap, {Form,Col,Button,Row} from 'react-bootstrap';
 
 function Addtournament(){
-  
+
     return(
         <form
           onSubmit={
-            console.log("shyam baba")
+            console.log("Hello")
           }
           method="get"
           action="/tournamentlist"
