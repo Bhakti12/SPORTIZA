@@ -12,3 +12,5 @@ https://www.npmjs.com/
 https://react-bootstrap.github.io/
 
 https://reactjs.org/docs/hooks-intro.html
+
+https://www.laravelcode.com/post/react-crud-example-using-mongodb-express-react-nodejs
